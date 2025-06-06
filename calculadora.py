@@ -15,7 +15,7 @@ if __name__ == "__main__":
         if operador == '+':
             resultado = soma(num1, num2)
 
-        elif operador == '-':
+        elif operador == '-':                   ##Realiza a Subtração ###
             resultado = subtracao(num1, num2)
         else:
             resultado = "Operador inválido."
